@@ -50,13 +50,6 @@ const team = [
     bio: 'JECRC University AI Team. Machine learning and model integration.',
     color: '#1a7f64',
   },
-  {
-    initials: 'AS',
-    name: 'Aman Singh',
-    role: 'Co-founder & Development',
-    bio: 'JECRC University AI Team. Full-stack development and system architecture.',
-    color: '#0c2e41',
-  },
 ];
 
 export default function Team() {
@@ -91,7 +84,7 @@ export default function Team() {
             The Team
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-2xl mx-auto">
           {team.map((member, i) => (
             <div
               key={member.name}
